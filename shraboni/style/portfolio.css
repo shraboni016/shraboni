@@ -8,14 +8,74 @@
 }
 
 
+.btn-primary{
+    background: blue;
+    font-weight: bold;
+    font-size: 18px;
+    color: white;
+    padding: 18px 35px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+}
+
+.header{
+    background-image: url('../images/bg.png');
+  
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+}
 /*nav style*/
 nav{
     display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 100px;
 }
 .b-colour{
 color: blue;
 }
+.dark-2{
+    color: rgb(42, 41, 52);
+}
 .nav-title{
     font-weight:bolder;
     font-size: 45px;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+}
+nav ul li{
+    list-style: none;
+    margin-right: 55px;
+}
+nav li a {
+    text-decoration: none;
+    font-size: 18px;
+}
+
+
+
+/*banner*/
+.banner{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 35px 0 100px;
+    align-items: center;
+}
+.banner-content{
+    max-width:580px;
+}
+.banner-greeting{
+    font-size: 45px;
+    font-weight: 600;
+}
+.banner-title{
+    font-size:55px;
+    font-weight: bold;
+}
+.banner-profile{
+    width: 480px;
 }
