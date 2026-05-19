@@ -6,7 +6,9 @@
   font-variation-settings:
     "wdth" 100;
 }
-
+.secondary-bg{
+background-color: rgb(201, 201, 255);
+}
 
 .btn-primary{
     background: blue;
@@ -19,11 +21,22 @@
     border: none;
 }
 
+.section-title{
+    font-size:35px;
+    font-weight: bold;
+    color: black;
+}
+.section-description{
+    font-size: 18px;
+    color: rgb(67, 67, 67);
+}
 .header{
     background-image: url('../images/bg.png');
-  
+    background-size: 800px;
     background-repeat: no-repeat;
-    background-position: top left, bottom right;
+    background-position:bottom right;
+
+    
 }
 /*nav style*/
 nav{
@@ -77,5 +90,27 @@ nav li a {
     font-weight: bold;
 }
 .banner-profile{
-    width: 480px;
+    width: 700px;
+}
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.about{
+    border-radius: 5px;
+    padding: 130px 150px;
+    text-align: center;
+    margin-top: 130px;
+}
+
+.about-items{
+    display: flex;
+    justify-content: space-around;
+}
+.item-description{
+    font-weight: 600px;
+}
+.item-title{
+    font-weight: bold;
 }
